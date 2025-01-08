@@ -1,9 +1,9 @@
-import {UserBase} from "./UserBase";
+import { UserBase } from './UserBase'
 
-export class UserEstonia extends UserBase{
-    mobileIDAuthorization: boolean | undefined;
+export class UserEstonia extends UserBase {
+  mobileIDAuthorization: boolean | undefined
 
-    constructor(name: string, surname: string, age: number) {
-        super(name, surname, age);
-    }
+  constructor(name: string, surname: string, age: number) {
+    super(name, surname, age)
+  }
 }

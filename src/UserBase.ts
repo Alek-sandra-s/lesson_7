@@ -1,11 +1,11 @@
 export class UserBase {
-    name: string;
-    surname: string;
-    age: number;
+  name: string
+  surname: string
+  age: number
 
-    constructor(name: string, surname: string, age: number) {
-        this.name = name;
-        this.surname = surname;
-        this.age = age;
-    }
+  constructor(name: string, surname: string, age: number) {
+    this.name = name
+    this.surname = surname
+    this.age = age
+  }
 }
