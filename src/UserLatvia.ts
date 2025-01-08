@@ -1,12 +1,9 @@
-export class UserLatvia {
-    name: string;
-    surname: string;
-    age: number;
+import {UserBase} from "./UserBase";
+
+export class UserLatvia extends UserBase{
     activateEParakstsForLatvia: boolean | undefined;
 
     constructor(name: string, surname: string, age: number) {
-        this.name = name;
-        this.surname = surname;
-        this.age = age;
+        super(name, surname, age);
     }
 }

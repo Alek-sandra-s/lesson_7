@@ -1,12 +1,9 @@
-export class UserEstonia {
-    name: string;
-    surname: string;
-    age: number;
+import {UserBase} from "./UserBase";
+
+export class UserEstonia extends UserBase{
     mobileIDAuthorization: boolean | undefined;
 
     constructor(name: string, surname: string, age: number) {
-        this.name = name;
-        this.surname = surname;
-        this.age = age;
+        super(name, surname, age);
     }
 }
