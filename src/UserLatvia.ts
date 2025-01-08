@@ -1,9 +1,9 @@
-import {UserBase} from "./UserBase";
+import { UserBase } from './UserBase'
 
-export class UserLatvia extends UserBase{
-    activateEParakstsForLatvia: boolean | undefined;
+export class UserLatvia extends UserBase {
+  activateEParakstsForLatvia: boolean | undefined
 
-    constructor(name: string, surname: string, age: number) {
-        super(name, surname, age);
-    }
+  constructor(name: string, surname: string, age: number) {
+    super(name, surname, age)
+  }
 }
